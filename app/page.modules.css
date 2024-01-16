@@ -1,0 +1,14 @@
+.header {
+    size: 50px;
+    color: black;
+    align-items: center;
+}
+
+.fullPageWrapper {
+
+}
+
+#accueil {
+    size:15rem;
+    color: blue;
+}

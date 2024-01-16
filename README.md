@@ -1,3 +1,4 @@
+# cclaudel
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,20 +6,27 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+# Install npm 
+sudo apt install npm
+
+# Install nvm
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+
+# Install npm with latest
+nvm install 20.11.0
+
+# Activation for the app
+nvm use 20.11.0
+
+# Create New next project 
+npx create-next-app@latest
+
+# Install dependancies 
+npm install
+
+# Run app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
