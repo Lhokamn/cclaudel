@@ -1,5 +1,5 @@
-import { ParcoursScolPropsType, ParcoursScolInformationType } from '@/app/types/parcours/parcours.type';
-import styles from './parcours.module.css'
+import { ParcoursScolPropsType, ParcoursScolInformationType } from '@/app/types/parcoursScol/parcoursScol.type';
+import styles from './parcoursScol.module.css'
 
 export default function ParcoursScolSection ( {experiences}:ParcoursScolPropsType){
     return (

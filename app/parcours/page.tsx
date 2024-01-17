@@ -1,12 +1,14 @@
-import ParcoursScolSection from '@/app/components/parcours/parcours.component'
-import { q } from '@/app/data/parcours.data'
+import ParcoursScolSection from '@/app/components/parcoursScol/parcoursScol.component'
+import { scol } from '@/app/data/parcoursScol.data'
 
 export default function Parcours() {
     return (
         <main>
             <div>
-                <h1>parcours</h1>
-                <ParcoursScolSection experiences={q} ></ParcoursScolSection>
+                <h1>Parcours</h1>
+                <h2>Scolaire</h2>
+                <ParcoursScolSection experiences={scol} ></ParcoursScolSection>
+                <h2>Professionel</h2>
             </div>
         </main>
     )
