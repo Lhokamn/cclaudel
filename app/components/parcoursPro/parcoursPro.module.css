@@ -1,7 +1,8 @@
-.pro{
-
+.pro .wrapper{
+    margin-top: 20px; /* Marge réduite entre les éléments wrapper */
 }
 
-.wrapper{
-    
+.pro .wrapper * {
+    margin-top: 2px;
+    margin-bottom:5px;
 }

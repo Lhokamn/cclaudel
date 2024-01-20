@@ -1,0 +1,23 @@
+.maindiv > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .scol, .pro {
+    flex: 1;
+} */
+
+.scol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

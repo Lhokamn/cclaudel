@@ -1,4 +1,4 @@
-import styles from "./page.modules.css";
+import styles from './page.modules.css';
 import Image from 'next/image';
 
 export default function Home() {
@@ -7,13 +7,13 @@ export default function Home() {
     <main>
       <div className={styles.fullPageWrapper}>
         <div className={styles.header}>
-          <h1>Portfolio - Corentin CLAUDEL</h1>
+          <h1>Corentin CLAUDEL</h1>
         </div>
         <div className={styles.aboutme}>
           <Image 
             src="/img/pp.jpeg"
-            width={100}
-            height={100}
+            width={300}
+            height={300}
             alt="picture of me"
             />
           <h2>About Me</h2>

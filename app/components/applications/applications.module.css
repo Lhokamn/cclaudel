@@ -1,0 +1,9 @@
+.listeApp {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);    
+}
+
+.oneApp {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

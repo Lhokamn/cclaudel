@@ -1,4 +1,4 @@
-import { ParcoursProInformationType } from '@/app/types/parcoursPro/parcoursPro.type'
+import { ParcoursProInformationType } from '@/app/types/parcoursPro.type'
 
 export const pro:ParcoursProInformationType[] = [
     {

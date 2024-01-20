@@ -4,11 +4,17 @@
     align-items: center;
 }
 
-.fullPageWrapper {
-
+.fullPageWrapper div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #accueil {
     size:15rem;
     color: blue;
+}
+
+.aboutme{
+    color: brown;
 }

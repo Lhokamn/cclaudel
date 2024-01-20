@@ -1,4 +1,4 @@
-import { ParcoursScolInformationType } from '@/app/types/parcoursScol/parcoursScol.type'
+import { ParcoursScolInformationType } from '@/app/types/parcoursScol.type'
 
 
 export const scol:ParcoursScolInformationType[] = [
