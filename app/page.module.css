@@ -1,0 +1,20 @@
+.header {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutme {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutme > p {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+#accueil {
+    font-size: 150%;
+    color: blue;
+}

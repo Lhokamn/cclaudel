@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -22,7 +23,9 @@ export default function RootLayout({
             <a href="./parcours" id="parcours">Parcours</a>
             <a href="./portfolio" id="portfolio">PortFolio</a>
           </nav>
-        {children}</body>
+        {children}
+      </body>
     </html>
   )
 }
+

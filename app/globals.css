@@ -3,9 +3,13 @@
 @tailwind utilities;  */
 
 body{
-  background-color: darkgrey;
+  /* background-color: darkgrey; */
 }
 
 nav {
-  align-items: end;
+  text-align: right;
+}
+
+nav * {
+  margin-left: 2%;
 }

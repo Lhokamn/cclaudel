@@ -1,8 +1,11 @@
 .content {
-    
+}
+
+.contentApp {
+    margin-left: 2rem;
 }
 
 #portfolio {
-    size:15rem;
+    font-size: 150%;
     color: blue;
 }

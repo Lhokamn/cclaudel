@@ -9,7 +9,7 @@ export default function Portfolio() {
         <main>
             <div className={styles.content}>
                 <h1>Portfolio</h1>
-                <div>
+                <div className={styles.contentApp}>
                     <h2>Mes Applications</h2>
                     <ApplicationsSection applications={apps}></ApplicationsSection>
                 </div>

@@ -4,6 +4,11 @@
 }
 
 .oneApp {
-    margin-right: 1rem;
-    margin-left: 1rem;
+    padding-right:2rem ;
+    padding-left: 2rem;
 }
+
+.oneApp:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Ajoute une ombre lors du survol */
+    transform: scale(1.1); /* Augmente la taille de la div de 10% lors du survol */
+  }
