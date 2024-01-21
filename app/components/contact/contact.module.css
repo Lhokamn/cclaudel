@@ -1,0 +1,8 @@
+.main {
+    display: flex;
+}
+
+.icone {
+    border: 5px solid black;
+    border-radius: 1.7rem;
+}

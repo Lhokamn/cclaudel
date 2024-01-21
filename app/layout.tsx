@@ -24,6 +24,9 @@ export default function RootLayout({
             <a href="./portfolio" id="portfolio">PortFolio</a>
           </nav>
         {children}
+        <footer>
+          <p>Site Web réalisés avec &#10084; et 100% français</p>
+        </footer>
       </body>
     </html>
   )

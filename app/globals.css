@@ -8,8 +8,17 @@ body{
 
 nav {
   text-align: right;
+  background-color: lightgray;
 }
 
 nav * {
   margin-left: 2%;
+}
+
+footer {
+  text-align: right;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
