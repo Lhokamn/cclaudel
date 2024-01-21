@@ -4,6 +4,12 @@
     flex-direction: column;
 }
 
+.fullContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .aboutme {
     display:flex;
     align-items: center;
