@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import NavigationSection from '@/app/components/navigation/navigation.component'
 import './globals.css'
 
 
@@ -15,15 +16,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
-          <nav>
-            <a href="./" id="accueil">Accueil</a>
-            <a href="./parcours" id="parcours">Parcours</a>
-            <a href="./portfolio" id="portfolio">PortFolio</a>
-          </nav>
-        {children}
+        <NavigationSection></NavigationSection>
+        <div className='children'>
+          {children}
+        </div>
         <footer>
           <p>Site Web réalisés avec &#10084; et 100% français</p>
         </footer>
