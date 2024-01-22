@@ -6,8 +6,8 @@ export default function ContactSection ( {contacts}:ContactPropsType){
     return (
         <main>
             <div className={styles.main}>
-                {contacts.map((contact:ContactInformationType) =>
-                <div className={styles.icone}>
+                {contacts.map((contact:ContactInformationType, key: number) =>
+                <div key={key} className={styles.icone}>
                     <a href={contact.url}>
                         <Image
                             src={contact.image}

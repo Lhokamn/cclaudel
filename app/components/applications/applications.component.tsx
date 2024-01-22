@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function ApplicationsSection ( {applications}:ApplicationsPropsType){
     return (
         <div className={styles.listeApp}>
-            {applications.map((application:ApplicationsInformationType) =>
-                <div className={styles.oneApp}>
+            {applications.map((application:ApplicationsInformationType, key: number) =>
+                <div key={key} className={styles.oneApp}>
                     <a href={application.url}>
                     <h3>{application.nomApp}</h3>
                     <Image

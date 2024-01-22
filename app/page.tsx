@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div className={styles.aboutme}>
             <h2>About Me</h2>
-            <p>Je suis un étudiant en Informatique à l'IUT Informatique de Lyon 1 la doua. Mais je suis Apprenti Technicien à l'entreprise <a href="https://endrix.com">Endrix</a> dans un but de professionnalisation de mon parcours professionnel </p>
+            <p>Je suis un étudiant en Informatique à l&aposIUT Informatique de Lyon 1 la doua. Mais je suis Apprenti Technicien à l&aposentreprise <a href="https://endrix.com">Endrix</a> dans un but de professionnalisation de mon parcours professionnel </p>
             <ContactSection contacts={contact}></ContactSection>
           </div>
         </div>

@@ -4,8 +4,8 @@ import styles from './parcoursScol.module.css'
 export default function ParcoursScolSection ( {experiences}:ParcoursScolPropsType){
     return (
         <div className={styles.scolarite}>
-            {experiences.map((experience:ParcoursScolInformationType) => 
-                <div className={styles.wrapper}>
+            {experiences.map((experience:ParcoursScolInformationType,key: number) =>
+                <div key={key} className={styles.wrapper}>
                     <strong>{experience.diplome}</strong>
                     <p>{experience.specialite}</p>
                     <p>{experience.anneeDip}</p>
