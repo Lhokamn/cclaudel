@@ -15,13 +15,13 @@ export const apps:ApplicationsInformationType[] = [
     },
     {
         nomApp: 'VaultWarden',
-        url: 'https://vault.cclaudel.fr:9443',
+        url: 'https://vault.cclaudel.fr',
         description:'Stockage de mot de passe héberger chez moi',
         image:'/img/vaultwarden.png'
     },
     {
         nomApp: 'Nextcloud',
-        url:'https://cloud.cclaudel.fr:9443',
+        url:'https://cloud.cclaudel.fr',
         description:'Stockage de fichier en ligne',
         image:'/img/nextcloud.jpg'
     }
