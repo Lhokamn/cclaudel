@@ -20,9 +20,9 @@ export const apps:ApplicationsInformationType[] = [
         image:'/img/vaultwarden.png'
     },
     {
-        nomApp: 'Nextcloud',
-        url:'https://cloud.cclaudel.fr',
-        description:'Stockage de fichier en ligne',
-        image:'/img/nextcloud.jpg'
+        nomApp: 'Stardust-Programmers',
+        url:'https://stardust-Programmers.cclaudel.fr',
+        description:'Site Web développé pour la nuit de l\'informatique 2023 en Collaboration',
+        image:'/img/stardust-programmers.png'
     }
 ]
