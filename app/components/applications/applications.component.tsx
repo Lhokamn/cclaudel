@@ -9,12 +9,7 @@ export default function ApplicationsSection ( {applications}:ApplicationsPropsTy
                 <div key={key} className={styles.oneApp}>
                     <a href={application.url}>
                     <h3>{application.nomApp}</h3>
-                    <Image
-                        src={application.image}
-                        width={300}
-                        height={150}
-                        alt={application.nomApp}
-                    />
+                    <iframe src={application.url} allowFullScreen={true}></iframe>
                     </a>
                     <p>{application.description}</p>
                 </div>

@@ -5,6 +5,5 @@ export type ApplicationsPropsType = {
 export type  ApplicationsInformationType = {
     nomApp: string,
     url: string,
-    description:string,
-    image:string
+    description:string
 }
