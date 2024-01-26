@@ -1,6 +1,5 @@
 import { ApplicationsPropsType, ApplicationsInformationType } from '@/app/types/applications.type';
 import styles from './applications.module.css'
-import Image from 'next/image'
 
 export default function ApplicationsSection ( {applications}:ApplicationsPropsType){
     return (

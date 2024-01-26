@@ -12,12 +12,15 @@ export default function Home() {
           <h1>Corentin CLAUDEL</h1>
         </div>
         <div className={styles.fullContent}>
-          <Image 
-            src="/img/pp.jpeg"
-            width={300}
-            height={300}
-            alt="picture of me"
-            />
+          <div >
+            <Image 
+              src="/img/pp.JPG"
+              width={200}
+              height={300}
+              alt="picture of me"
+              className={styles.shadowBox}
+              />
+          </div>
           <div className={styles.myJob}>
             <p>Administrateur Système et Réseau</p>
           </div>

@@ -14,8 +14,3 @@
 .pro:nth-child(2){
     grid-column: 3;
 }
-
-#parcours{
-    font-size: 150%;
-    color: blue;
-}

@@ -32,12 +32,13 @@ nav a {
   border-radius: 4px;
   background-color: white;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
 footer {
   text-align: right;
   background-color: lightgray;
-  position: absolute;
+  position: sticky;
   bottom: 0;
   width: 100%;
   height: 6vh;
