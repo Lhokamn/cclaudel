@@ -14,9 +14,9 @@ export default function Portfolio() {
 
     const [activeButton, setActiveButton] = useState(2);
 
-    const handleClick = (buttonId) => {
+    const handleClick = (buttonId:number) => {
         setActiveButton(buttonId);
-      };
+    };
 
     return (
         <main>
