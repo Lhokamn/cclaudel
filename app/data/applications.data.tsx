@@ -20,5 +20,10 @@ export const apps:ApplicationsInformationType[] = [
         nomApp: 'Stardust-Programmers',
         url:'https://stardust-Programmers.cclaudel.fr',
         description:'Site Web développé pour la nuit de l\'informatique 2023 en Collaboration'
+    },
+    {
+        nomApp: 'Mon CV',
+        url: 'https://cclaudel.fr',
+        description: 'Portfolio en ligne réalisés avec NextJS'
     }
 ]

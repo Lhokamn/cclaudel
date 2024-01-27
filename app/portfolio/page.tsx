@@ -23,24 +23,22 @@ export default function Portfolio() {
             <div className={styles.content}>
                 <h1>Portfolio</h1>
                 <div className={styles.select}>
-                    <div>
-                        <div className={styles.allButton}>
-                            <button className={` ${styles.button} ${activeButton === 2 ? styles.actButton : ''}`} onClick={() => handleClick(2)}>
-                                <h2>Mes compétences</h2>
-                            </button>
-                            <button className={` ${styles.button} ${activeButton === 1 ? styles.actButton : ''}`} onClick={() => handleClick(1)}>
-                                <h2>Mes Applications</h2>
-                            </button>
-                        </div>
-                        <div className={styles.contentTMP}>
-                            <div className={activeButton === 1 ? styles.active : ''}>
-                                <CompetenceSection></CompetenceSection>
-                            </div>   
-                            <div className={activeButton === 2 ? styles.active : ''}>
-                                <ApplicationsSection applications={apps}></ApplicationsSection>
-                            </div> 
-                        </div>
-                    </div>    
+                    <div className={styles.allButton}>
+                        <button className={` ${styles.button} ${activeButton === 2 ? styles.actButton : ''}`} onClick={() => handleClick(2)}>
+                            <h2>Mes compétences</h2>
+                        </button>
+                        <button className={` ${styles.button} ${activeButton === 1 ? styles.actButton : ''}`} onClick={() => handleClick(1)}>
+                            <h2>Mes Applications</h2>
+                        </button>
+                    </div>
+                    <div className={styles.contentTMP}>
+                        <div className={activeButton === 1 ? styles.active : ''}>
+                            <CompetenceSection></CompetenceSection>
+                        </div>   
+                        <div className={activeButton === 2 ? styles.active : ''}>
+                            <ApplicationsSection applications={apps}></ApplicationsSection>
+                        </div> 
+                    </div>  
                 </div> 
             </div>
         </main>
