@@ -10,5 +10,9 @@ export const contact:ContactInformationType[] = [
         // contact LinkedIn
         url:'https://www.linkedin.com/in/corentin-claudel-bb0135222/',
         image:'/img/linkedIn_icon.png'
+    },
+    {
+        url:'https://github.com/Lhokamn',
+        image:'/img/github-mark.svg'
     }
 ]

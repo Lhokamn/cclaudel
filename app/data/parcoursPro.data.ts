@@ -2,10 +2,10 @@ import { ParcoursProInformationType } from '@/app/types/parcoursPro.type'
 
 export const pro:ParcoursProInformationType[] = [
     {
-        nom:'AinfoService',
-        fonction:'Stagiaire Technicien Informatique',
-        date:'Octobre 2020',
-        contrat:'Stage d\'observation'
+        nom:'Endrix',
+        fonction:'Apprenti Technicien Informatique',
+        date:'septembre 2022 - Aout 2024',
+        contrat:'apprentissage'
     },
     {
         nom:'APMG',
@@ -14,9 +14,9 @@ export const pro:ParcoursProInformationType[] = [
         contrat:'Intérimaire'
     },
     {
-        nom:'Endrix',
-        fonction:'Apprenti Technicien Informatique',
-        date:'septembre 2022 - Aout 2024',
-        contrat:'apprentissage'
-    }
+        nom:'AinfoService',
+        fonction:'Stagiaire Technicien Informatique',
+        date:'Octobre 2020',
+        contrat:'Stage d\'observation'
+    }   
 ]

@@ -2,15 +2,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     height: 50dvh;
-
-}
-
-.dashboard .pieContainer{
-    margin-right: 3rem;
     margin-left: 3rem;
+    margin-right: 3rem;
+
 }
 
-.pieContainer {
-    display: flex;
-    flex-direction: column;
+.bar {
+    height: 20px;
+    
+}
+  
+#PowerShell {
+    background-color: #3498db;
+}
+
+#Bash {
+    background-color: #e74c3c;
+}
+
+#Web {
+    background-color: #2ecc71;
 }
