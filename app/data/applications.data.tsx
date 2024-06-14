@@ -6,11 +6,11 @@ export const apps:ApplicationsInformationType[] = [
         url: 'https://doc.cclaudel.fr',
         description:'Documentation Opensource en français'
     },
-    {
+/**      {
         nomApp: 'Passwd',
         url: 'https://passwd.cclaudel.fr',
         description:'Partage de mot de passe de manière sécurisés'
-    },
+    },*/
     {
         nomApp: 'VaultWarden',
         url: 'https://vault.cclaudel.fr',
@@ -25,5 +25,20 @@ export const apps:ApplicationsInformationType[] = [
         nomApp: 'Mon CV',
         url: 'https://cclaudel.fr',
         description: 'Portfolio en ligne réalisés avec NextJS'
+    },
+    {
+        nomApp: 'Webmail + Mail Serveur',
+        url: 'https://webmail.cclaudel.fr',
+        description: 'Création d\'un serveur de mail pour le nom de dommaine cclaudel.fr'
+    },
+    {
+        nomApp: 'Nextcloud',
+        url: 'https://cloud.cclaudel.fr',
+        description: 'Instance privé de Nextcloud pour stockage externe de fichier'
+    },
+    {
+        nomApp: 'SearXNG',
+        url: 'https://search.cclaudel.fr',
+        description: 'Instance privé du moteur de recherche searxng'
     }
 ]
