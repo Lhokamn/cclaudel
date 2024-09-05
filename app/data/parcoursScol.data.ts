@@ -9,7 +9,7 @@ export const scol:ParcoursScolInformationType[] = [
         lieu:'IMT Mines Alès',
         ville:'Alès',
         duree:'septembre 2024 - aujourd\'hui'
-    }
+    },
     {
         diplome:'BUT Informatique',
         specialite:'Déploiement d\'Application Communicantes Sécurisées',
