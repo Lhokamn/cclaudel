@@ -1,6 +1,13 @@
 import { ParcoursProInformationType } from '@/app/types/parcoursPro.type'
 
 export const pro:ParcoursProInformationType[] = [
+    
+    {
+        nom:'Volvo',
+        fonction:'Apprenti Ingénieur Cloud',
+        date:'septembre 2024 - Aujourd\'hui',
+        contrat:'apprentissage'
+    },
     {
         nom:'Endrix',
         fonction:'Apprenti Technicien Informatique',

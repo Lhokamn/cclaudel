@@ -3,9 +3,17 @@ import { ParcoursScolInformationType } from '@/app/types/parcoursScol.type'
 
 export const scol:ParcoursScolInformationType[] = [
     {
+        diplome:'Ingénieur Informatique et Réseaux parcours ',
+        specialite:'Systèmes et Réseaux',
+        anneeDip:'En cours',
+        lieu:'IMT Mines Alès',
+        ville:'Alès',
+        duree:'septembre 2024 - aujourd\'hui'
+    }
+    {
         diplome:'BUT Informatique',
         specialite:'Déploiement d\'Application Communicantes Sécurisées',
-        anneeDip:'En cours',
+        anneeDip:'En attente',
         lieu:'IUT informatique Lyon 1 Doua',
         ville:'Villeurbanne',
         duree:'septembre 2021 - aout 2024'

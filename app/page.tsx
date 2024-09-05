@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className={styles.aboutme}>
             <h2>About Me</h2>
-            <p>Je suis un étudiant en Informatique à l&apos;IUT Informatique de Lyon 1 la doua. Mais je suis Apprenti Technicien à l&apos;entreprise <a href="https://endrix.com">Endrix</a> dans un but de professionnalisation de mon parcours professionnel </p>
+            <p>Je suis un étudiant à l'école d'ingénieur des <a href="https://www.imt-mines-ales.fr/">Mines Alès</a> en formation INFRES. Parrallèllement je suis Apprenti Ingénieur Cloud au sein de l'entreprise <a href="https://www.volvogroup.com/en/">Volvo</a> dans un but de professionnalisation de mon parcours professionnel</p>
             <ContactSection contacts={contact}></ContactSection>
           </div>
         </div>
