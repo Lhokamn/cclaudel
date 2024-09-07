@@ -3,7 +3,7 @@ import { ContactInformationType } from '@/app/types/contact.type'
 export const contact:ContactInformationType[] = [
     {
         // contact mail
-        url:'mailto:lhokam.claudel@gmail.com?subject=Premier Contact',
+        url:'mailto:corentin@cclaudel.fr?subject=Premier Contact',
         image:'/img/gmail_icon.png'
     },
     {
