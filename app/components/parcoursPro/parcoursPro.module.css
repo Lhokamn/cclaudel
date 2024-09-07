@@ -8,8 +8,6 @@
 
 /* Création du système de tuiles */
 .pro {
-    /* padding: 0 20% 0 20%; */
-    
     overflow: hidden;
     width: 60%;
     align-items: center;
@@ -28,7 +26,20 @@
     display: flex;
     animation: defilement 20s linear infinite; /* Animation de 10s en continu */
     width: 100%;
-    
+}
+
+.tuiles > div {
+    border-radius: 1rem;
+}
+
+.tuiles > div:nth-of-type(2n){
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(143,160,161,1) 17%, rgba(21,146,172,1) 40%); 
+}
+
+.tuiles > div:nth-of-type(2n+1){
+    background: rgb(236,230,240);
+    background: linear-gradient(90deg, rgba(236,230,240,1) 0%, rgba(170,167,242,1) 50%, rgba(151,141,158,1) 100%); 
 }
 
 .wrapper {

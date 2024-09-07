@@ -9,10 +9,8 @@
 /* Création du système de tuiles */
 
 .scolarite {
-   /* padding: 0 20% 0 20%; */
-    
     overflow: hidden;
-    width: 60%;
+    width: 45%;
     align-items: center;
 }
 
@@ -30,6 +28,10 @@
     animation: defilement 20s linear infinite; /* Animation de 10s en continu */
     width: 100%;
     
+}
+.tuiles > div{
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .wrapper {
