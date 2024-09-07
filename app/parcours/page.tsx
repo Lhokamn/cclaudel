@@ -10,14 +10,14 @@ export default function Parcours() {
             <div className={styles.maindiv}>
                 <h1>Parcours</h1>
                 <div className={styles.content}>
-                    <div className={styles.scol}>
-                        <h2>Scolaire</h2>
-                        <ParcoursScolSection experiences={scol} ></ParcoursScolSection>
-                    </div>
                     <div className={styles.pro}>
                         <h2>Professionel</h2>
                         <ParcoursProSection experiences={pro} ></ParcoursProSection>
                     </div> 
+                    <div className={styles.scol}>
+                        <h2>Scolaire</h2>
+                        <ParcoursScolSection experiences={scol} ></ParcoursScolSection>
+                    </div>
                 </div>    
             </div>
         </main>

@@ -1,9 +1,60 @@
-/* CSS pour la classe wrapper */
-.scolarite .wrapper{
-    margin-top: 20px; /* Marge réduite entre les éléments wrapper */
+.wrapper  {
+    margin: 2%;
 }
 
-.scolarite .wrapper * {
-    margin-top: 2px;
-    margin-bottom:5px;
+.wrapper > * {
+    margin: 0;
 }
+
+/* Création du système de tuiles */
+
+.scolarite {
+   /* padding: 0 20% 0 20%; */
+    
+    overflow: hidden;
+    width: 60%;
+    align-items: center;
+}
+
+.scolContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.tuiles {
+
+    display: flex;
+    animation: defilement 20s linear infinite; /* Animation de 10s en continu */
+    width: 100%;
+    
+}
+
+.wrapper {
+    min-width: 300px; /* Largeur d'une tuile */
+    height: 150px; /* Hauteur d'une tuile */
+    margin-right: 10px; /* Espacement entre les tuiles */
+    background-color: #ddd; /* Couleur des tuiles */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc; /* Bordure pour un effet visuel */
+    flex-direction: column;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateX(0%); /* Position de départ */
+    }
+    35% {
+        transform: translateX(-30%); /* Défile toute la largeur du contenu */
+    }
+    75% {
+        transform: translateX(30%); /* Défile toute la largeur du contenu */
+    }
+    100% {
+        transform: translateX(0%); /* Défile toute la largeur du contenu */
+    }
+} 
