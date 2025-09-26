@@ -1,0 +1,30 @@
+.formations {
+  margin-bottom: 50px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.formations h2 {
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+.formations ul {
+  list-style: none;
+  padding: 0;
+}
+.formation-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 4px solid #ff9a9e;
+  background: #fff6f6;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.formation-card:hover {
+  background: #ffe2e2;
+  transform: translateX(5px);
+}
+.school { font-weight: bold; color: #555; }
+.year { font-style: italic; color: #888; margin: 5px 0; }
+.description { margin-top: 8px; }

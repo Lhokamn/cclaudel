@@ -1,0 +1,88 @@
+.experiences {
+  margin-bottom: 50px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.experiences h2 {
+  color: #1976d2; /* Bleu chaleureux pour contraster avec le orange/rose des formations */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Liste */
+.experiences ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Carte expérience */
+.experience-card {
+  margin-bottom: 20px;
+  padding: 18px;
+  border-left: 4px solid #64b5f6; /* Bleu clair */
+  background: #f5faff; /* Fond bleu très léger */
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.experience-card:hover {
+  background: #e3f2fd;
+  transform: translateX(6px);
+}
+
+/* Titre du poste */
+.experience-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #0d47a1; /* Bleu foncé */
+}
+
+/* Entreprise */
+.company {
+  font-weight: bold;
+  color: #444;
+  margin: 0 0 5px;
+}
+
+/* Période */
+.period {
+  font-style: italic;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+/* Description */
+.description {
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.tag {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: background 0.2s ease;
+}
+
+.tag:hover {
+  background: #bbdefb;
+}

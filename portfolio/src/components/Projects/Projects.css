@@ -1,0 +1,120 @@
+.projects {
+  margin-bottom: 50px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.projects h2 {
+  color: #8e24aa; /* Violet profond */
+  margin-bottom: 20px;
+}
+
+/* Liste */
+.projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Carte projet */
+.project-card {
+  margin-bottom: 20px;
+  padding: 18px;
+  border-left: 4px solid #ba68c8; /* Violet clair */
+  background: #faf5ff; /* Fond lavande clair */
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.project-card:hover {
+  background: #f3e5f5;
+  transform: translateX(6px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #4a148c; /* Violet foncé */
+}
+
+/* Statuts */
+.status {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status.terminé {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.status["en cours"], .status.en\ cours {
+  background: #fff9c4;
+  color: #f57f17;
+}
+
+.status.futur {
+  background: #e1bee7;
+  color: #6a1b9a;
+}
+
+/* Description */
+.description {
+  margin: 10px 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Lien projet */
+.project-link {
+  margin: 8px 0;
+}
+
+.project-link a {
+  display: inline-block;
+  color: #6a1b9a;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.project-link a:hover {
+  color: #4a148c;
+  text-decoration: underline;
+  transform: translateY(-1px);
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.tag {
+  background: #ede7f6;
+  color: #4527a0;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: background 0.2s;
+}
+
+.tag:hover {
+  background: #d1c4e9;
+}
