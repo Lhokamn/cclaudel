@@ -38,4 +38,4 @@ jobs:
             docker pull ghcr.io/${{ github.repository }}/myapp:latest
             docker stop myapp || true
             docker rm myapp || true
-            docker run -d --name myapp -p 80:80 ghcr.io/${{ github.repository }}/myapp:latest
+            docker run -d --name myapp -p 12080:80 ghcr.io/${{ github.repository }}/myapp:latest
