@@ -1,9 +1,6 @@
 <script setup lang="ts">
 import Header from '@/components/Header/Header.vue'
-import About from '@/components/About/About.vue'
-import Formations from '@/components/Formations/Formations.vue'
-import Experiences from '@/components/Experiences/Experiences.vue'
-import Projects from '@/components/Projects/Projects.vue'
+
 import Footer from '@/components/Footer/Footer.vue'
 
 </script>
@@ -11,16 +8,9 @@ import Footer from '@/components/Footer/Footer.vue'
 <template>
   <div id="app">
     <Header />
-
-    <main class="content">
-      <About />
-
-      <Projects />
-
-      <Experiences />
-
-      <Formations />
-
+    <main>
+      <!-- Ici s’affiche la page courante -->
+      <router-view />
     </main>
 
     <Footer owner="Corentin Claudel" />
