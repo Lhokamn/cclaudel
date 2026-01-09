@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     name: "Module Terraform KVM",
     description: "Création de module terraform pour simplifié la gestion de KVM",
-    status: "terminé",
+    status: "en cours",
     url: "https://github.com/Lhokamn/kvm-tf-modules",
     tags: ["kvm", "terraform", "Automatisation"]
   },

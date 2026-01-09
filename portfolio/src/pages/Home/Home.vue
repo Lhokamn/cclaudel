@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import About from '@/components/About/About.vue'
+import Navbar from '@/components/NavBar/Navbar.vue'
 
 </script>
 
@@ -7,7 +8,9 @@ import About from '@/components/About/About.vue'
 <template>
     <div>
         <main class="content">
+            <Navbar />
             <About />
         </main>
+        
     </div>
 </template>

@@ -8,7 +8,7 @@ import NotFound from '@/pages/Error/404.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/experience', component: Experience},
+  { path: '/experiences', component: Experience},
   { path: '/projects', component: Projects},
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound }
 ]
